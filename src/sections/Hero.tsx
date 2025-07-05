@@ -3,22 +3,6 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="min-h-screen bg-black text-white font-['Inter'] overflow-x-hidden">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-xl border-b border-white/10">
-        <nav className="flex justify-between items-center px-4 lg:px-8 py-4 max-w-7xl mx-auto">
-          <a href="#" className="text-2xl font-bold text-white tracking-tight">
-            CodeMap
-          </a>
-          <ul className="hidden md:flex space-x-8">
-            <li><a href="#learn" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Learn</a></li>
-            <li><a href="#roadmaps" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Roadmaps</a></li>
-            <li><a href="#projects" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Projects</a></li>
-            <li><a href="#community" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Community</a></li>
-            <li><a href="#docs" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Docs</a></li>
-          </ul>
-        </nav>
-      </header>
-
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 lg:px-8 relative pt-24">
         {/* Background Gradient */}
